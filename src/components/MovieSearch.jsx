@@ -283,17 +283,17 @@ export default function MovieSearch() {
       top_n: 10,
     }
 
-    console.log("Enviando al recomendador:", body)
+    //console.log("Enviando al recomendador:", body)
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/recomendar-omdb", {
+      const res = await fetch("https://movies-backend-docke.onrender.com/recomendar-omdb", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
       })
 
       const data = await res.json()
-      console.log("Recomendaciones:", data)
+      //console.log("Recomendaciones:", data)
 
       setSendingRecommendations(false)
       setSentSuccess(true)
