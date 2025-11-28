@@ -415,7 +415,7 @@ export default function MovieSearch() {
             <input placeholder="Ej: Matrix" value={query} onChange={(e) => setQuery(e.target.value)} />
           </div>
 
-          <div className="field">
+          {/* <div className="field">
             <label>Año</label>
             <select value={year} onChange={(e) => setYear(e.target.value)}>
               <option value="any">Cualquiera (1995-2023)</option>
@@ -425,7 +425,7 @@ export default function MovieSearch() {
                 </option>
               ))}
             </select>
-          </div>
+          </div> */}
 
           <div className="field">
             <label>Género</label>

@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>Buscador de Películas (1995 - 2023)</h1>
-        <p className="subtitle">Busca por nombre y filtra por año. Solo se muestran películas entre 1995 y 2023.</p>
+        <h1>Selecciona tus películas favoritas</h1>
+        <p className="subtitle">Busca por nombre y filtra por genero. Encuentra una lista de peliculas solo para ti.</p>
       </header>
 
       <main>
